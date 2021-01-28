@@ -1,0 +1,6 @@
+
+2018:06:01  09:25  ,  print: Twist_cone_A_small_dual_color_CB3.gcode  ,  elapsed time: 0:00:01  ,  used filament lenght: 0.000 m  ,  state: Unfinished print
+
+2018:06:01  09:26  ,  print: Twist_cone_A_small_dual_color_CB3.gcode  ,  elapsed time: 0:00:00  ,  used filament lenght: 0.000 m  ,  state: Unfinished print
+
+2018:06:01  09:33  ,  print: Twist_cone_A_small_dual_color_CB3.gcode  ,  elapsed time: 0:07:03  ,  used filament lenght: 4.537 m  ,  state: Unfinished print
