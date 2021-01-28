@@ -1,0 +1,1 @@
+ESP8266 ESP-12 Socket - Snap Fit, Breadboard Friendly, No Soldering by tweeto on Thingiverse: https://www.thingiverse.com/thing:4708718
