@@ -1,0 +1,86 @@
+solid Uranium STLWriter Wed 29 Nov 2017 14:41:14
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex -22.5 54.5 0.0
+    vertex -22.5 54.5 75.0
+    vertex -22.5 129.5 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex -22.5 129.5 0.0
+    vertex -22.5 54.5 75.0
+    vertex -22.5 129.5 75.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 54.5 0.0
+    vertex -22.5 54.5 0.0
+    vertex 52.5 129.5 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 129.5 0.0
+    vertex -22.5 54.5 0.0
+    vertex -22.5 129.5 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 54.5 75.0
+    vertex 52.5 54.5 0.0
+    vertex 52.5 129.5 75.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 129.5 75.0
+    vertex 52.5 54.5 0.0
+    vertex 52.5 129.5 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex -22.5 54.5 75.0
+    vertex 52.5 54.5 75.0
+    vertex -22.5 129.5 75.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex -22.5 129.5 75.0
+    vertex 52.5 54.5 75.0
+    vertex 52.5 129.5 75.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 129.5 75.0
+    vertex 52.5 129.5 0.0
+    vertex -22.5 129.5 75.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex -22.5 129.5 75.0
+    vertex 52.5 129.5 0.0
+    vertex -22.5 129.5 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 54.5 75.0
+    vertex -22.5 54.5 75.0
+    vertex 52.5 54.5 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 0.0
+  outer loop
+    vertex 52.5 54.5 0.0
+    vertex -22.5 54.5 75.0
+    vertex -22.5 54.5 0.0
+  endloop
+endfacet
+endsolid Uranium STLWriter Wed 29 Nov 2017 14:41:14
