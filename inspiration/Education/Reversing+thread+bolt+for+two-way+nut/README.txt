@@ -1,0 +1,1 @@
+Reversing thread bolt for two-way nut by DrLex on Thingiverse: https://www.thingiverse.com/thing:4709572
