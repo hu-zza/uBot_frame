@@ -1,0 +1,1 @@
+{3D Printing Terminology Visual Displays %!s(bool=true)} by {okayauco %!s(bool=true)} on Thingiverse: https://www.thingiverse.com/thing:2512390
