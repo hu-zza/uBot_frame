@@ -1,0 +1,2 @@
+
+2021:02:02  15:38  ,  print: LegoAxelLong_craft.gcode  ,  elapsed time: 0:40:11  ,  used filament lenght: 0.629 m  ,  state: Finished print
