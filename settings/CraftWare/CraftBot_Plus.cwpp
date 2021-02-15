@@ -1,0 +1,20 @@
+{
+    "BuildPlate": 0,
+    "CircularPlatform": false,
+    "Depth": 200,
+    "DepthDirection": 0,
+    "DepthOrigin": 0,
+    "DualExtruder": false,
+    "Height": 200,
+    "HotEnd": 0,
+    "Icon": "cw_logo_small.png",
+    "Offset": 0,
+    "PrintUpload": 0,
+    "PrinterFooter": "G91\nG0 E-1 F2400 ; retract 1mm\nG0 Z5 F2400 ; lift Z 5mm\nG90\nG28 X Y ; home horizontally",
+    "PrinterHeader": "G28 X Y ; home horizontally\nG28 Z ; home vertically",
+    "Width": 250,
+    "WidthDirection": 0,
+    "WidthOrigin": 0,
+    "XOfs": 5,
+    "YOfs": 0
+}
