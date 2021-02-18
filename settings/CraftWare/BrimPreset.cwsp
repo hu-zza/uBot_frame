@@ -13,7 +13,7 @@
     "BedTemp": 60,
     "BedTempEnabled": true,
     "BedTempWait": true,
-    "BrimCount": 10,
+    "BrimCount": 20,
     "BrimEnable": true,
     "BrimHead": 0,
     "CraftHeadChange": true,
