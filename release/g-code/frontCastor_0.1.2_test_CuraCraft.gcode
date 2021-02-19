@@ -8,17 +8,16 @@
 ;MAXX:146.589
 ;MAXY:119.53
 ;MAXZ:21.31
-;Generated with Cura_SteamEngine 4.8.0
-T0
-M190 S60
-M104 S215
-M109 S215
-M82 ;absolute extrusion mode
+
+M300 ; play beep    Snnn (freq in Hz) Pnnn (time in ms)
+
+M82 ; absolute extrusion mode
+
 ; Craftbot+ Custom Start G-code
 
-G28 X0Y0 ;home xy
+G28 X Y ; home horizontally
 
-G28 Z0 ;home z
+G28 Z ; home vertically
 
 G92 E0 ; Reset Extruder
 
@@ -37,11 +36,15 @@ G92 E0 ; Reset Extruder
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 
 ; End of custom start GCode
-M83 ;relative extrusion mode
+
+M300 ; play beep    Snnn (freq in Hz) Pnnn (time in ms)
+
+M83 ; relative extrusion mode
+
 G1 F4800 E-1.2
 ;LAYER_COUNT:99
 ;LAYER:-7
-M107
+M106 S0 ;turn off fan
 G0 F9000 X106.711 Y86.279 Z0.36
 ;TYPE:SUPPORT-INTERFACE
 G1 F4800 E1.2
@@ -13330,30 +13333,28 @@ G0 F9000 X121.603 Y99.319
 G0 X121.107 Y99.91
 ;TIME_ELAPSED:829.895734
 G1 F4800 E-1.2
-M140 S0
-M82 ;absolute extrusion mode
-M107
+
 ; CraftBot + Custom End G-code
 
-M104 S0 ;turn off nozzle heat
+G91 ; relative movements
 
-M140 S0 ;turn off bed heat
+G0 E-1 F2400 ; retract 1mm
 
-M106 S0;turn off fan
+G0 Z30 F5500 ; move bed down 30mm
 
-G91 ;relative movements
+G90 ; absolute movements
 
-G0 Z30 F5500 ;move bed down 30mm
+G28 X Y ; home horizontally
 
-G90 ;absolute movements
+M104 S0 ; turn off nozzle heat
 
-G0 X0 Y0 ;move to zy home
+M140 S0 ; turn off bed heat
 
-M84 ;disable motors
+M106 S0 ; turn off fan
+
+M84 ; disable motors
 
 ; End of custom end GCode
-M83 ;relative extrusion mode
-M104 S0
 ;End of Gcode
 ;SETTING_3 {"extruder_quality": ["[general]\\nversion = 4\\nname = Craftbot 0.2\
 ;SETTING_3 \ndefinition = custom\\n\\n[metadata]\\ntype = quality_changes\\nposi
@@ -13362,7 +13363,7 @@ M104 S0
 ;SETTING_3 ght = 1\\ninfill_before_walls = False\\ninfill_pattern = cubicsubdiv\
 ;SETTING_3 \ninfill_sparse_density = 50\\nmaterial_diameter = 1.75\\nmaterial_pr
 ;SETTING_3 int_temperature = 215\\nraft_surface_layers = 3\\nretraction_amount =
-;SETTING_3  1.2\\nretraction_min_travel = 1\\nretraction_speed = 80\\nskirt_gap 
+;SETTING_3  1.2\\nretraction_min_travel = 1\\nretraction_speed = 80\\nskirt_gap
 ;SETTING_3 = 2\\nskirt_line_count = 2\\nspeed_infill = 100\\nspeed_print = 100\\
 ;SETTING_3 nspeed_topbottom = 100\\nspeed_travel = 150\\nspeed_wall_0 = 40\\nspe
 ;SETTING_3 ed_wall_x = 60\\ntop_thickness = 1\\n\\n"], "global_quality": "[gener
