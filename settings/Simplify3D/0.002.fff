@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="0.002" version="2021-02-20 23:12:41" app="S3D-Software 4.1.2">
+<profile name="0.002" version="2021-02-20 23:27:52" app="S3D-Software 4.1.2">
   <baseProfile>Simplify3D PLA for CraftBot(2)</baseProfile>
   <printMaterial>PLA</printMaterial>
   <printQuality>Fast</printQuality>
@@ -38,7 +38,7 @@
   <raftExtruder>0</raftExtruder>
   <raftTopLayers>3</raftTopLayers>
   <raftBaseLayers>2</raftBaseLayers>
-  <raftOffset>3</raftOffset>
+  <raftOffset>6</raftOffset>
   <raftSeparationDistance>0.14</raftSeparationDistance>
   <raftTopInfill>100</raftTopInfill>
   <aboveRaftSpeedMultiplier>0.3</aboveRaftSpeedMultiplier>
