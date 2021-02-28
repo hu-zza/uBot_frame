@@ -1,0 +1,1 @@
+Bag Clip with Screw Cap - new version! by Minkix on Thingiverse: https://www.thingiverse.com/thing:4744855
